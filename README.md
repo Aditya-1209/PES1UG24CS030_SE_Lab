@@ -12,12 +12,6 @@ Software_Engineering/
 |   |-- requirements/
 |   |-- use-case-specification/
 |   `-- uml/
-|-- Lab-02/
-|   |-- README.md
-|   `-- submission-files/
-|-- Lab-03/
-|   |-- README.md
-|   `-- submission-files/
 `-- ...
 ```
 
@@ -36,8 +30,6 @@ Each lab should have its own folder named `Lab-XX`, where `XX` is the lab number
 | Lab | Title | Status |
 |---|---|---|
 | Lab 01 | Requirements Engineering and UML Use-Case Modelling | Completed |
-| Lab 02 | To be added | Pending |
-| Lab 03 | To be added | Pending |
 
 ## Notes
 
