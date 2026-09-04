@@ -12,6 +12,8 @@ Software_Engineering/
 |   |-- requirements/
 |   |-- use-case-specification/
 |   `-- uml/
+|-- Lab-02/
+|   |-- Jira_Lab_2_Airport_Lost_Luggage_Submission.pdf
 `-- ...
 ```
 
