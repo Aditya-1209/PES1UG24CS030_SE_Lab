@@ -5,21 +5,25 @@ This repository contains my **Software Engineering Laboratory submissions**. It 
 ## Repository Structure
 
 ```text
-Software_Engineering/
+PES1UG24CS030_SE_Lab/
 |-- README.md
-|-- Lab-01/
+|-- Lab01/
 |   |-- README.md
 |   |-- requirements/
 |   |-- use-case-specification/
 |   `-- uml/
-|-- Lab-02/
-|   |-- Jira_Lab_2_Airport_Lost_Luggage_Submission.pdf
+|-- Lab02/
+|   `-- Jira_Lab_2_Airport_Lost_Luggage_Submission.pdf
+|-- Lab03/
+|   |-- README.md
+|   |-- Lab3_Component_Diagram.pdf
+|   `-- Lab3_Architecture_Justification.pdf
 `-- ...
 ```
 
 ## Folder Convention
 
-Each lab should have its own folder named `Lab-XX`, where `XX` is the lab number. A lab folder may contain:
+Each lab has its own folder named `LabXX`, where `XX` is the lab number. A lab folder may contain:
 
 - A short `README.md` describing the experiment or problem statement
 - Requirements and use-case specifications
@@ -32,6 +36,8 @@ Each lab should have its own folder named `Lab-XX`, where `XX` is the lab number
 | Lab | Title | Status |
 |---|---|---|
 | Lab 01 | Requirements Engineering and UML Use-Case Modelling | Completed |
+| Lab 02 | Agile Project Management using Jira | Completed |
+| Lab 03 | Component Modelling & Architectural Pattern Selection | Completed |
 
 ## Notes
 
@@ -43,4 +49,3 @@ Each lab should have its own folder named `Lab-XX`, where `XX` is the lab number
 ## Author
 
 **Aditya Patil**
-
