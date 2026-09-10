@@ -37,7 +37,7 @@ Each lab has its own folder named `LabXX`, where `XX` is the lab number. A lab f
 |---|---|---|
 | Lab 01 | Requirements Engineering and UML Use-Case Modelling | Completed |
 | Lab 02 | Agile Project Management using Jira | Completed |
-| Lab 03 | Component Modelling & Architectural Pattern Selection | Completed |
+| Lab 03 | Airport Lost Luggage Portal - Component Modelling & Architecture | Completed |
 
 ## Notes
 
