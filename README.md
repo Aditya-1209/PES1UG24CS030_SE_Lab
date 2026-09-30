@@ -1,49 +1,74 @@
 # Software Engineering Lab Submissions
 
-This repository contains my **Software Engineering Laboratory submissions**. It is organized lab-wise so that requirements, design artifacts, source files, reports, and supporting documents are easy to locate.
+This repository contains my **Software Engineering Laboratory submissions**, organized by lab with requirements, design artifacts, source code, reports, and supporting evidence.
+
+## Lab Submissions
+
+| Lab | Title | Submission |
+|---|---|---|
+| Lab 01 | Requirements Engineering and UML Use-Case Modelling | [Requirements, use case, and diagram](Lab01/README.md) |
+| Lab 02 | Agile Project Management using Jira | [Submission report](Lab02/Jira_Lab_2_Airport_Lost_Luggage_Submission.pdf) |
+| Lab 03 | Airport Lost Luggage Portal - Component Modelling & Architecture | [Architecture and component diagram](Lab03/README.md) |
+| Lab 04 | Donkey Kong Repair Lab - AI-Assisted Debugging and Feature Development | [Implementation, tests, and recordings](Lab04/README.md) |
+
+Labs 01–03 cover **Problem Statement #30: Airport Lost Luggage Claim & Tracking Portal**. Lab 04 is a separate Pygame debugging and feature-development exercise.
 
 ## Repository Structure
 
 ```text
 PES1UG24CS030_SE_Lab/
+|-- .gitignore
 |-- README.md
 |-- Lab01/
 |   |-- README.md
-|   |-- requirements/
-|   |-- use-case-specification/
-|   `-- uml/
+|   |-- requirements/requirements.md
+|   |-- use-case-specification/UC01_Submit_Lost_Baggage_Claim.md
+|   `-- uml/use_case_diagram.pdf
 |-- Lab02/
 |   `-- Jira_Lab_2_Airport_Lost_Luggage_Submission.pdf
 |-- Lab03/
 |   |-- README.md
 |   |-- Lab3_Component_Diagram.pdf
 |   `-- Lab3_Architecture_Justification.pdf
-`-- ...
+`-- Lab04/
+    |-- README.md
+    |-- game.py
+    |-- test_game.py
+    |-- requirements.txt
+    |-- before.mov
+    |-- after.mov
+    |-- Chat_History.pdf
+    |-- COMMIT_HISTORY.txt
+    |-- RUN_AND_HISTORY.txt
+    `-- repository-history.bundle
 ```
 
-## Folder Convention
+## Run Lab 04
 
-Each lab has its own folder named `LabXX`, where `XX` is the lab number. A lab folder may contain:
+Use Python 3.10 or later. From the repository root:
 
-- A short `README.md` describing the experiment or problem statement
-- Requirements and use-case specifications
-- UML diagrams and other design artifacts
-- Source code and related assets
-- Reports or final submission documents
+```bash
+cd Lab04
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python game.py
+```
 
-## Lab Submissions
+On Windows, create the environment with `python -m venv .venv` and activate it with `.venv\Scripts\activate.bat` in Command Prompt or `.\.venv\Scripts\Activate.ps1` in PowerShell.
 
-| Lab | Title | Status |
-|---|---|---|
-| Lab 01 | Requirements Engineering and UML Use-Case Modelling | Completed |
-| Lab 02 | Agile Project Management using Jira | Completed |
-| Lab 03 | Airport Lost Luggage Portal - Component Modelling & Architecture | Completed |
+Run the automated checks from `Lab04` with the environment active:
+
+```bash
+python -m unittest -v
+```
+
+See the [Lab 04 README](Lab04/README.md) for controls, implemented features, and submission evidence.
 
 ## Notes
 
-- Every submission is stored in its corresponding lab folder.
-- Final diagrams and reports are provided in the required submission format.
-- Supporting or editable files may be included when useful.
+- Each submission is stored in its corresponding `LabXX` folder.
+- Diagrams and reports are provided as PDFs; Lab 04 also includes source code, tests, gameplay recordings, and an archived Git history.
 - This repository is maintained for academic and educational purposes.
 
 ## Author

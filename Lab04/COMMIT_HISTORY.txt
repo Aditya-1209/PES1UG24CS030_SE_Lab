@@ -1,0 +1,15 @@
+commit 6d30f3210f7477192784de884b890ab847c3c002
+Date: 2026-09-30T08:47:02+05:30
+Subject: fix: make barrels descend ladders with 30 percent probability
+
+commit 1032b0e82e319ff53bf27d986fa86916abfb3d73
+Date: 2026-09-30T08:47:33+05:30
+Subject: feat: warm the background as the score increases
+
+commit 02388b77f12865c556101c7df494917cb68448fb
+Date: 2026-09-30T08:48:20+05:30
+Subject: feat: show floating points when the player jumps a barrel
+
+commit 4379b4745018d453869dd63192412821f610b196
+Date: 2026-09-30T08:49:14+05:30
+Subject: feat: double barrel jump bonuses from 500 points

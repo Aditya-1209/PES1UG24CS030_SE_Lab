@@ -20,7 +20,7 @@ The portal lets passengers report missing baggage and track its recovery. Baggag
 ## Repository structure
 
 ```text
-airport-lost-luggage-portal/
+Lab01/
 |-- README.md
 |-- requirements/
 |   `-- requirements.md

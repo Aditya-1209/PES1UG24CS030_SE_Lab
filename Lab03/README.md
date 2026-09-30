@@ -10,8 +10,8 @@ Microservices Architecture
 
 ## Submission Files
 
-- `Lab3_Component_Diagram.pdf` - UML component diagram with the portal, gateway, domain microservices, data stores, interfaces, dependencies, and airport scan integration.
-- `Lab3_Architecture_Justification.pdf` - one-page explanation of the architectural choice, two scenario-specific reasons, a security advantage, and a performance benefit.
+- [Lab3_Component_Diagram.pdf](Lab3_Component_Diagram.pdf) - UML component diagram with the portal, gateway, domain microservices, data stores, interfaces, dependencies, and airport scan integration.
+- [Lab3_Architecture_Justification.pdf](Lab3_Architecture_Justification.pdf) - one-page explanation of the architectural choice, two scenario-specific reasons, a security advantage, and a performance benefit.
 
 ## Core Components
 

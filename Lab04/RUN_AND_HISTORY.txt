@@ -1,0 +1,27 @@
+Donkey Kong Repair Lab - final submission
+
+Updated source: game.py, README.md, requirements.txt, test_game.py
+Chat transcript: Chat_History.pdf
+Four task commits: COMMIT_HISTORY.txt
+Complete Git history: repository-history.bundle
+
+RUN (Python 3.10+):
+  python3 -m venv .venv
+  source .venv/bin/activate
+  python -m pip install -r requirements.txt
+  python game.py
+
+On Windows, activate with .venv\Scripts\activate instead.
+
+Controls: Left/Right move, Space jump, Up/Down climb, R reset.
+TEST: python -m unittest -v
+
+RESTORE THE GIT REPOSITORY (optional, run from this folder):
+  git clone -b main repository-history.bundle restored-repository
+  cd restored-repository
+  git log -4 --oneline
+
+The bundle preserves the original repository and all four task commits.
+The original task commits are preserved in the bundle; the SE_Lab repository
+tracks this submission separately.
+The supplied before/after recordings are included as before.mov and after.mov.

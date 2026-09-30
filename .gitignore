@@ -1,0 +1,10 @@
+# macOS metadata
+.DS_Store
+
+# Python environments and generated files
+.venv/
+__pycache__/
+*.py[cod]
+
+# Optional checkout of the archived Lab 04 development repository
+/Lab04/restored-repository/
