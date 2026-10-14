@@ -10,8 +10,9 @@ This repository contains my **Software Engineering Laboratory submissions**, org
 | Lab 02 | Agile Project Management using Jira | [Submission report](Lab02/Jira_Lab_2_Airport_Lost_Luggage_Submission.pdf) |
 | Lab 03 | Airport Lost Luggage Portal - Component Modelling & Architecture | [Architecture and component diagram](Lab03/README.md) |
 | Lab 04 | Donkey Kong Repair Lab - AI-Assisted Debugging and Feature Development | [Implementation, tests, and recordings](Lab04/README.md) |
+| Lab 05 | Static Code Analysis | [Digital wallet, issue table, and reflections](Lab05/README.md) |
 
-Labs 01–03 cover **Problem Statement #30: Airport Lost Luggage Claim & Tracking Portal**. Lab 04 is a separate Pygame debugging and feature-development exercise.
+Labs 01–03 cover **Problem Statement #30: Airport Lost Luggage Claim & Tracking Portal**. Lab 04 is a separate Pygame debugging and feature-development exercise. Lab 05 applies static analysis to a Python digital wallet demonstration.
 
 ## Repository Structure
 
@@ -30,17 +31,22 @@ PES1UG24CS030_SE_Lab/
 |   |-- README.md
 |   |-- Lab3_Component_Diagram.pdf
 |   `-- Lab3_Architecture_Justification.pdf
-`-- Lab04/
+|-- Lab04/
+|   |-- README.md
+|   |-- game.py
+|   |-- test_game.py
+|   |-- requirements.txt
+|   |-- before.mov
+|   |-- after.mov
+|   |-- Chat_History.pdf
+|   |-- COMMIT_HISTORY.txt
+|   |-- RUN_AND_HISTORY.txt
+|   `-- repository-history.bundle
+`-- Lab05/
     |-- README.md
-    |-- game.py
-    |-- test_game.py
-    |-- requirements.txt
-    |-- before.mov
-    |-- after.mov
-    |-- Chat_History.pdf
-    |-- COMMIT_HISTORY.txt
-    |-- RUN_AND_HISTORY.txt
-    `-- repository-history.bundle
+    |-- digital_wallet.py
+    |-- issues.md
+    `-- reflection.md
 ```
 
 ## Run Lab 04
@@ -64,6 +70,16 @@ python -m unittest -v
 ```
 
 See the [Lab 04 README](Lab04/README.md) for controls, implemented features, and submission evidence.
+
+## Run Lab 05
+
+From the repository root:
+
+```bash
+python3 Lab05/digital_wallet.py
+```
+
+See the [Lab 05 README](Lab05/README.md) for the deliverables and static analysis commands.
 
 ## Notes
 
