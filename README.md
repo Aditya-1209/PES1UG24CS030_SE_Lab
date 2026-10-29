@@ -11,8 +11,9 @@ This repository contains my **Software Engineering Laboratory submissions**, org
 | Lab 03 | Airport Lost Luggage Portal - Component Modelling & Architecture | [Architecture and component diagram](Lab03/README.md) |
 | Lab 04 | Donkey Kong Repair Lab - AI-Assisted Debugging and Feature Development | [Implementation, tests, and recordings](Lab04/README.md) |
 | Lab 05 | Static Code Analysis | [Digital wallet, issue table, and reflections](Lab05/README.md) |
+| Lab 06 | Code and Branch Coverage Analysis | [Coverage tests and terminal screenshots](Lab06/README.md) |
 
-Labs 01–03 cover **Problem Statement #30: Airport Lost Luggage Claim & Tracking Portal**. Lab 04 is a separate Pygame debugging and feature-development exercise. Lab 05 applies static analysis to a Python digital wallet demonstration.
+Labs 01–03 cover **Problem Statement #30: Airport Lost Luggage Claim & Tracking Portal**. Lab 04 is a separate Pygame debugging and feature-development exercise. Lab 05 applies static analysis to a Python digital wallet demonstration. Lab 06 measures code and branch coverage of a Python smart thermostat controller.
 
 ## Repository Structure
 
@@ -42,11 +43,20 @@ PES1UG24CS030_SE_Lab/
 |   |-- COMMIT_HISTORY.txt
 |   |-- RUN_AND_HISTORY.txt
 |   `-- repository-history.bundle
-`-- Lab05/
+|-- Lab05/
+|   |-- README.md
+|   |-- digital_wallet.py
+|   |-- issues.md
+|   `-- reflection.md
+`-- Lab06/
     |-- README.md
-    |-- digital_wallet.py
-    |-- issues.md
-    `-- reflection.md
+    |-- thermostat_control.py
+    |-- test_thermostat_control.py
+    |-- CodeCoverageTest_thermostat_control.py
+    |-- BranchCoverageTest_thermostat_control.py
+    `-- screenshots/
+        |-- code_coverage.png
+        `-- branch_coverage.png
 ```
 
 ## Run Lab 04
@@ -81,10 +91,22 @@ python3 Lab05/digital_wallet.py
 
 See the [Lab 05 README](Lab05/README.md) for the deliverables and static analysis commands.
 
+## Run Lab 06
+
+Install `coverage` and `pytest` (`python -m pip install coverage pytest`), then from the repository root:
+
+```bash
+cd Lab06
+coverage run --branch -m pytest BranchCoverageTest_thermostat_control.py
+coverage report -m
+```
+
+See the [Lab 06 README](Lab06/README.md) for the code coverage run and the coverage results.
+
 ## Notes
 
 - Each submission is stored in its corresponding `LabXX` folder.
-- Diagrams and reports are provided as PDFs; Lab 04 also includes source code, tests, gameplay recordings, and an archived Git history.
+- Diagrams and reports are provided as PDFs; Lab 04 also includes source code, tests, gameplay recordings, and an archived Git history; Lab 06 includes coverage terminal screenshots.
 - This repository is maintained for academic and educational purposes.
 
 ## Author
